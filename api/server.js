@@ -19,7 +19,7 @@ server.get('/api/friends', async (req, res, next) => {
   }
 })
 
-server.get('*', (req, res) => {
+server.get('/*splat', (req, res) => {
   res.sendFile(path.resolve(__dirname, '..', 'frontend', 'dist', 'index.html'))
 })
 
