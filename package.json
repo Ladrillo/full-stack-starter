@@ -13,7 +13,6 @@
     "postinstall": "node scripts/postinstall.js",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev --name init --skip-generate",
-    "db:init": "prisma migrate dev --name init --skip-generate",
     "db:reset": "prisma migrate reset --force --skip-seed --skip-generate",
     "db:setup": "npm run db:reset && npm run db:migrate && npm run db:generate && npm run db:seed",
     "db:seed": "node prisma/seed.js",
