@@ -12,7 +12,7 @@ Enable **host networking** in Docker Settings / Resources, for easy development.
 
 ## Development
 
-1. Create an `.env` file and place it inside the `.devcontainer` folder.
+1. Create an `.env` file inside the `.devcontainer` folder.
 
     ```text
     POSTGRES_USER="starter"
